@@ -1,0 +1,149 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+  background: url(http://wrbbradio.org/wp-content/uploads/2016/10/grey-background-07.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+.menu h1{
+    margin: 2vw;
+    font: 4vw;
+    color: rgb(102, 249, 249); 
+    display: flex;
+    /* color: rgb(131, 202, 159); */
+}
+#ravi{
+    position: absolute;
+    margin-top: 5vw;
+    margin-left: 13vw;
+    color: rgb(102, 249, 249);
+    /* color: rgb(97, 189, 155);  */
+ 
+} 
+ 
+.menu{
+    margin: 0px;
+    padding: 0px;
+    /* text-align: center ; */
+
+    display: flex;
+    color: rgb(102, 249, 249);
+    background-color: rgb(52, 50, 50); 
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt_cKIBHR5pJtfcZV3ukQfawlZQCaFObr-Qg&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+    /* color: rgb(74, 203, 182); */
+    /* background-color: beige; */
+}
+.menu ul{ 
+    list-style: none; 
+    margin-left: 20vh;
+    align-items: center; 
+    /* background-color: beige; */
+    
+    display: flex;
+} 
+
+.menu ul li{
+    padding: 10px;
+}
+.menu ul li input{
+    height: 4vh;
+    width: 82%;
+    font-size: 1vw;
+}
+.menu ul li i{
+    position: absolute;
+    margin-top: -1.75vw;
+    margin-left: 15vw;
+    color: #000;
+}
+.menu ul li button{
+    width: 130%;
+    border: none;
+    height: 4vh;
+    margin-left: .5vh;
+    border-radius: 3vw;
+    background-color:  rgb(102, 249, 249); 
+} 
+.menu ul li button:hover{ 
+    color:rgb(102, 249, 249);
+    font-size: 15px;
+    transition: 0.5s;
+    background-color: rgb(52, 50, 50);
+    border: 1px solid   rgb(102, 249, 249);
+}
+.menu ul li a{ 
+    text-decoration: none;
+    color: rgb(102, 249, 249);
+}
+.menu ul li a:hover{ 
+    /* cursor: pointer; */
+    color:rgb(228, 43, 19);
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  background-color: #435165;
+  margin: 0;
+}
+.register {
+  width: 400px;
+  background-color: #ffffff;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  margin: 100px auto;
+}
+.register h1 {
+  text-align: center;
+  color: #5b6574;
+  font-size: 24px;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #dee0e4;
+}
+.register form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+.register form label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+ height: 50px;
+  background-color: #3274d6;
+  color: #ffffff;
+}
+.register form input[type="password"], .register form input[type="text"], .register form input[type="email"] {
+  width: 310px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+.register form input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #3274d6;
+ border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+  transition: background-color 0.2s;
+}
+.register form input[type="submit"]:hover {
+background-color: #2868c7;
+  transition: background-color 0.2s;
+}

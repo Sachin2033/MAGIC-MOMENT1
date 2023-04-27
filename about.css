@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overscroll-behavior: none;
+}
+html,body{
+    width: 100%;
+    height: 100%; 
+    background-color: rgb(255, 255, 255);
+}
+.menu h1{
+    margin: 2vw;
+    font: 4vw;
+    color: rgb(102, 249, 249); 
+    display: flex;
+    /* color: rgb(131, 202, 159); */
+}
+#ravi{
+    position: absolute;
+    margin-top: 5vw;
+    margin-left: 13vw;
+    color: rgb(102, 249, 249);
+    /* color: rgb(97, 189, 155);  */
+ 
+} 
+ 
+.menu{
+    margin: 0px;
+    padding: 0px;
+    /* text-align: center ; */
+
+    display: flex;
+    color: rgb(102, 249, 249);
+    background-color: rgb(52, 50, 50); 
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt_cKIBHR5pJtfcZV3ukQfawlZQCaFObr-Qg&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+    /* color: rgb(74, 203, 182); */
+    /* background-color: beige; */
+}
+.menu ul{ 
+    list-style: none; 
+    margin-left: 20vh;
+    align-items: center; 
+    /* background-color: beige; */
+    
+    display: flex;
+}
+.menu ul li{
+    padding: 10px;
+}
+.menu ul li input{
+    height: 4vh;
+    width: 82%;
+    font-size: 1vw;
+}
+.menu ul li i{
+    position: absolute;
+    margin-top: -1.75vw;
+    margin-left: 15vw;
+    color: #000;
+}
+.menu ul li button{
+    width: 130%;
+    border: none;
+    height: 4vh;
+    margin-left: .5vh;
+    border-radius: 3vw;
+    background-color:  rgb(102, 249, 249); 
+} 
+.menu ul li button:hover{ 
+    color:rgb(102, 249, 249);
+    font-size: 15px;
+    transition: 0.5s;
+    background-color: rgb(52, 50, 50);
+    border: 1px solid   rgb(102, 249, 249);
+}
+.menu ul li a{ 
+    text-decoration: none;
+    color: rgb(102, 249, 249);
+}
+.menu ul li a:hover{ 
+    /* cursor: pointer; */
+    color:rgb(228, 43, 19);
+    font-size: 25px;
+    transition: 0.5s;
+}
+input{
+    margin-left: 8vh;
+}  
+.us{
+    color: pink;
+     font-size: 8vh;
+     margin-top: 10vh;
+     margin-left: 15vh;
+} 
+pre{
+    color: rgb(227, 110, 110); 
+    margin-top: 7vh;
+    font-size: 2.7vh;
+    margin-left: 15vh;
+} 
+.about1{
+     
+    position: fixed;
+}  
+#vid{ 
+    position: fixed;
+    
+}

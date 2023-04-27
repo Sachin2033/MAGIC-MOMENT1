@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overscroll-behavior: none;
+}
+html,body{
+    width: 100%;
+    height: 100%; 
+    background-color: white;
+}
+.menu h1{
+    margin: 2vw;
+    font: 4vw;
+    color: rgb(102, 249, 249); 
+    display: flex;
+    /* color: rgb(131, 202, 159); */
+}
+#ravi{
+    position: absolute;
+    margin-top: 5vw;
+    margin-left: 13vw;
+    color: rgb(102, 249, 249);
+    /* color: rgb(97, 189, 155);  */
+ 
+} 
+ 
+.menu{
+    margin: 0px;
+    padding: 0px;
+    /* text-align: center ; */
+
+    display: flex;
+    color: rgb(102, 249, 249);
+    background-color: rgb(52, 50, 50); 
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt_cKIBHR5pJtfcZV3ukQfawlZQCaFObr-Qg&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+    /* color: rgb(74, 203, 182); */
+    /* background-color: beige; */
+}
+.menu ul{ 
+    list-style: none; 
+    margin-left: 20vh;
+    align-items: center; 
+    /* background-color: beige; */
+    
+    display: flex;
+}
+.menu ul li{
+    padding: 10px;
+}
+.menu ul li input{
+    height: 4vh;
+    width: 82%;
+    font-size: 1vw;
+}
+.menu ul li i{
+    position: absolute;
+    margin-top: -1.75vw;
+    margin-left: 15vw;
+    color: #000;
+}
+.menu ul li button{
+    width: 130%;
+    border: none;
+    height: 4vh;
+    margin-left: .5vh;
+    border-radius: 3vw;
+    background-color:  rgb(102, 249, 249); 
+} 
+.menu ul li button:hover{ 
+    color:rgb(102, 249, 249);
+    font-size: 15px;
+    transition: 0.5s;
+    background-color: rgb(52, 50, 50);
+    border: 1px solid   rgb(102, 249, 249);
+}
+.menu ul li a{ 
+    text-decoration: none;
+    color: rgb(102, 249, 249);
+}
+.menu ul li a:hover{ 
+    /* cursor: pointer; */
+    color:rgb(228, 43, 19);
+    font-size: 25px;
+    transition: 0.5s;
+}
+input{
+    margin-left: 8vh;
+} 
+.contact{
+    color:black;  
+    font-size: 7vh;
+    margin-top: 20vh;
+    margin-left: 30vh;
+} 
+.content{
+    color: black; 
+    margin-left: 0vh;
+    margin-top: 5vh; 
+    font-size: 3vh; 
+
+}
+/* .form1{  
+    border: 2px solid rgb(120, 160, 171);
+    padding: 5vh;
+    margin: 5vh;  
+    margin-top: -20vh;
+    margin-right: 40vh; 
+
+    margin-left: 100vh; 
+    color: rgb(102, 102, 102); 
+    background-color: blanchedalmond;  
+    border-radius: 20px;
+    
+
+}   */
+/*  */ form{
+    border: 2px solid rgb(120, 160, 171);
+    padding: 5vh;
+    margin: 5vh;  
+    margin-top: -20vh;
+    margin-right: 20vh; 
+
+     margin-left: 130vh; 
+    color: rgb(102, 102, 102); 
+    background-color: blanchedalmond;  
+    border-radius: 20px;
+    
+} 
+.form{
+    margin-left: 100vh;
+} 
+
+/* .contact_us{ 
+    display: flex;
+
+}
+ */
+ #submit{
+    width: 15%;
+    border: 1px;
+    height: 4vh; 
+    list-style: none;
+    margin-left: 12vh;
+    margin-top: 2vh;
+    /* border-radius: 3vw; */
+    background-color:  rgb(235, 203, 203); 
+}  
+#submit:hover{ 
+    color:black;
+    font-size: 15px;
+    transition: 0.5s; 
+    list-style: none;
+    background-color: transparent;
+    border: 1px solid   black;
+} 
+#query{
+    margin-left: 12vh;
+    margin-top: -2vh;
+} 
+#fname{
+    margin-left: 1vh;
+} 
+#mail{
+    margin-left: 1vh;
+}
+.icon{
+    display: flex;
+    text-align: center;
+    margin-left: 10vh;
+    margin-right: 185vh;
+    color: black;
+    padding: 25px ;
+    border: none;
+    margin-top: -20vh;
+
+}
+/* .icon1{
+    text-align: center;
+    margin-left: 10vh;
+    margin-right: 185vh;
+    color: black;
+    padding: 25px ;
+    border: none;
+
+
+} */
+.icon div span{
+    font-weight: bold;
+}
+.icon span{
+    font-weight: bold;
+}
+.icon p{
+    font-weight: 300;
+    opacity: 0.7;
+}
+.contact-icon {
+    font-size: 20px; 
+   padding: 10vh;
+    
+    }

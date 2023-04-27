@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link href="signup.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="">
+  </head>
+  <body> 
+     
+    <div id="main">
+        <div id="page1">
+           <div class="menu">
+              <h1>Magic Moment</h1>
+              <ul>
+                 <li><a href="">Home</a></li>
+                 <li><a href="album.html">Album</a></li>
+                 <li><a href="coupon.html">Coupon's</a></li>
+                 <li> <a href="about.html">About</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+                 <li>
+                    <input type="text" placeholder="Search Here" name="search here">
+                    <i class="ri-search-line"></i>
+                 </li>
+                 <li><button type="Search">Search</button></li> 
+                
+              </ul>
+
+			  
+    <!-- Body of Form starts -->
+  	
+    		<!---Submit Button----->
+			</div>
+      </div>
+  </div>
+
+  <div class="register">
+	<h1>Register</h1>
+	<form action="register.php" method="post" autocomplete="off">
+		<label for="username">
+			<i class="fas fa-user"></i>
+		</label>
+		<input type="text" name="username" placeholder="Username" id="username" required>
+		<label for="password">
+			<i class="fas fa-lock"></i>
+		</label>
+		<input type="password" name="password" placeholder="Password" id="password" required>
+		<label for="email">
+			<i class="fas fa-envelope"></i>
+		</label>
+		<input type="email" name="email" placeholder="Email" id="email" required>
+		<input type="submit" value="Register">
+	</form>
+</div>
+
+  <!--Body of Form ends--->
+  </body>
+</html>

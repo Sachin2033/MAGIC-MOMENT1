@@ -1,0 +1,373 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overscroll-behavior: none;
+}
+html,body{
+  width: 100%;
+  height: 100%; 
+  background-color: rgb(255, 255, 255);
+}
+.menu h1{
+  margin: 2vw;
+  font: 4vw;
+  color: rgb(102, 249, 249); 
+  display: flex;
+  /* color: rgb(131, 202, 159); */
+}
+#ravi{
+  position: absolute;
+  margin-top: 5vw;
+  margin-left: 13vw;
+  color: rgb(102, 249, 249);
+  /* color: rgb(97, 189, 155);  */
+
+} 
+
+.menu{
+  margin: 0px;
+  padding: 0px;
+  /* text-align: center ; */
+
+  display: flex;
+  color: rgb(102, 249, 249);
+  background-color: rgb(52, 50, 50); 
+  background-image: url(https://images.unsplash.com/photo-1641895964758-3e4374714a8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-position: center;
+  background-size: cover;
+  /* color: rgb(74, 203, 182); */
+  /* background-color: beige; */
+}
+.menu ul{ 
+  list-style: none; 
+  margin-left: 20vh;
+  align-items: center; 
+  /* background-color: beige; */
+  
+  display: flex;
+} 
+
+.menu ul li{
+  padding: 10px;
+}
+.menu ul li input{
+  height: 4vh;
+  width: 82%;
+  font-size: 1vw;
+}
+.menu ul li i{
+  position: absolute;
+  margin-top: -1.75vw;
+  margin-left: 15vw;
+  color: #000;
+}
+.menu ul li button{
+  width: 130%;
+  border: none;
+  height: 4vh;
+  margin-left: .5vh;
+  border-radius: 3vw;
+  background-color:  rgb(102, 249, 249); 
+} 
+.menu ul li button:hover{ 
+  color:rgb(102, 249, 249);
+  font-size: 15px;
+  transition: 0.5s;
+  background-color: rgb(52, 50, 50);
+  border: 1px solid   rgb(102, 249, 249);
+}
+.menu ul li a{ 
+  text-decoration: none;
+  color: rgb(102, 249, 249);
+}
+.menu ul li a:hover{ 
+  /* cursor: pointer; */
+  color:rgb(228, 43, 19);
+  font-size: 25px;
+  transition: 0.5s;
+}
+input{
+  margin-left: 8vh;
+}  
+/* #pho2{
+  width: 100%;
+  margin-top: 11vw;
+  display: flex;
+  justify-content:space-around;
+  height: 60vh; 
+  
+}
+.part{
+  width: 40%;
+  height: 100%;
+  background-color:rgb(255, 255, 255);; 
+  border-radius: 3vh;  
+  
+  border: 2px solid rgb(189, 102, 102); 
+} 
+
+.pic{
+  width: 100%;
+  height: 45vh; 
+  border-radius: 3vh;
+  
+}  
+#img1{
+  width: 100%;
+  height: 45vh;
+  border-radius: 3vh;
+}
+#img2{
+  width: 100%;
+  height: 45vh;
+  border-radius: 3vh;
+} 
+*/
+.albums{
+  width: 100%;
+  margin-top: 11vw;
+  display: flex;
+  justify-content:space-around;
+  height: 60vh; 
+}
+.container1 {
+  /* margin: 50px auto; */ 
+  
+  margin-left: 8vh;
+  width: 40%;
+  height:50vh ;
+  overflow: hidden; 
+  border-radius: 5px;
+  /* border: 10px solid;
+  border-top-color: #856036;
+  border-left-color: #5d4426;
+  border-bottom-color: #856036;
+  border-right-color: #5d4426; */
+  position: relative;
+} 
+.container2 {
+  /* margin: 50px auto; */ 
+ 
+  margin-left: 10vh;
+  width: 40%;
+  height:50vh ;
+  overflow: hidden; 
+  border-radius: 5px;
+  /* border: 10px solid;
+  border-top-color: #856036;
+  border-left-color: #5d4426;
+  border-bottom-color: #856036;
+  border-right-color: #5d4426; */
+  position: relative;
+}
+.photo {
+  position: absolute;
+  animation: round 16s infinite;
+  opacity: 0; 
+  width: 100%;
+  height:100% ;
+}
+@keyframes round {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+@keyframes round {
+  25% {
+    opacity: 1;
+    -webkit-opacity: 1;
+  }
+  40% {
+    opacity: 0;
+    -webkit-opacity: 0;
+  }
+} 
+img:nth-child(1) {
+  animation-delay: 12s;
+}
+ 
+img:nth-child(2) {
+  animation-delay: 8s;
+}
+ 
+img:nth-child(3) {
+  animation-delay: 4s;
+}
+ 
+img:nth-child(4) {
+  animation-delay: 0s;
+} 
+@media only screen and (max-width: 720px){
+  .slide{ 
+    width: 100%;
+  }
+ } 
+ #page2{
+  width: 100%;
+  height: 100vh;
+}
+#add{
+width: 100%;
+background: #000;
+height: 200vh;
+}
+#p1{
+position: absolute;
+width: 90%;
+height: 70vh;
+display: flex;
+align-items: center;
+margin-top: 10vw;
+margin-left: 5vw;
+}
+#l1{
+margin-left: 8vw;
+width: 50%;
+height: 70vh;
+background-image: url(https://perfectclickstudios.com/img/Wedding.jpg);
+background-position: center;
+background-size: cover;
+}
+#r1{
+z-index: 99;
+overflow: hidden;
+position: absolute;
+margin-top: 2vw;
+margin-left: 49vw;
+background-color: rgba(56, 55, 55, 0.59);
+width: 40%;
+height: 45vh;
+}
+#r1 h1{
+padding: 2vw;
+font-size: 2vw;
+z-index: 999;
+position: absolute;
+color: #fff;
+}
+#r1 p{
+color: #fff;
+padding: 5vw;
+font-size: 1.3vw;
+}
+#page2{
+width: 100%;
+height: 200vh;
+background-color: #000;
+}
+#p2{
+position: absolute;
+width: 100%;
+height: 70vh;
+display: flex;
+align-items: center;
+margin-top: 50vw;
+}
+#l2{
+z-index: 999;
+margin-left: 12vw;
+width: 35%;
+height: 45vh;
+background-color: rgba(56, 55, 55, 0.59);
+}
+#r2{
+width: 50%;
+height: 70vh;
+ margin-left: -7vw;
+background-image: url(https://perfectclickstudios.com/img/Reception.jpg);
+ background-position: center;
+ background-size: cover;
+}
+#l2 h1{
+padding: 3vw;
+font-size: 2vw;
+z-index: 999;
+position: absolute;
+color: #fff;
+}
+#l2 p{
+color: #fff;
+padding: 6vw;
+font-size: 1.3vw;
+} 
+
+#p3{
+position: absolute;
+width: 90%;
+height: 70vh;
+display: flex;
+align-items: center;
+margin-top: 92vw;
+margin-left: 5vw;
+}
+#l3{
+margin-left: 8vw;
+width: 50%;
+height: 70vh;
+background-image: url(https://perfectclickstudios.com/img/Priyanshu&Shefali%20Pre-Wedding.jpg);
+background-position: center;
+background-size: cover;
+}
+#r3{
+z-index: 99;
+overflow: hidden;
+position: absolute;
+margin-top: 2vw;
+margin-left: 49vw;
+background-color: rgba(56, 55, 55, 0.59);
+width: 40%;
+height: 45vh;
+}
+#r3 h1{
+padding: 2vw;
+font-size: 2vw;
+z-index: 999;
+position: absolute;
+color: #fff;
+}
+#r3 p{
+color: #fff;
+padding: 5vw;
+font-size: 1.3vw;
+}
+
+
+#p4{
+position: absolute;
+width: 100%;
+height: 70vh;
+display: flex;
+align-items: center;
+margin-top: 140vw;
+}
+#l4{
+z-index: 999;
+margin-left: 12vw;
+width: 35%;
+height: 45vh;
+background-color: rgba(56, 55, 55, 0.59);
+}
+#r4{
+width: 50%;
+height: 70vh;
+ margin-left: -7vw;
+background-image: url(https://perfectclickstudios.com/img/Destination.jpg);
+ background-position: center;
+ background-size: cover;
+}
+#l4 h1{
+padding: 3vw;
+font-size: 2vw;
+z-index: 999;
+position: absolute;
+color: #fff;
+}
+#l4 p{
+color: #fff;
+padding: 6vw;
+font-size: 1.3vw;
+} 
